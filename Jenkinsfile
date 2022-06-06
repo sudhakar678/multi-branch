@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('clone') {
-      steps {
-          sh 'sudo git clone https://github.com/sudhakar678/multi-branch.git'
-        }
-      }
         stage ('Compile Stage') {
 
             steps {
